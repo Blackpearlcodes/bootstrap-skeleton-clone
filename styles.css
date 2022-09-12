@@ -13,7 +13,7 @@
      width: auto;
      height: auto;
      background-color: white;
-     border: 2px solid black;
+     /* border: 2px solid black; */
      font-size: 45px;
 }
 
@@ -97,8 +97,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
     background-color: hsl(140, 72%, 61%);
     padding-left:auto;
     padding-right: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     height: 20%;
     min-height: 400px;
     max-height: 1600px;
@@ -129,4 +129,63 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
     font-size: 35px;
     color: white;
     display: inline-block;
+}
+
+.btn-border-white:hover {
+    background-color: white;
+    color: black;
+ }
+
+ form {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+ }
+
+ input {
+    width: auto;
+    min-width: 420px;
+    float: left;
+    /* text-align: left; */
+    padding-top:25px;
+    padding-bottom: 15px;
+    padding-right:15px;
+ }
+ 
+ label {
+    float: left;
+    /* padding-bottom: 15px; */
+    /* padding-left: 15px; */
+    /* display: inline-block; */
+    /* width: 40px; */
+    text-align: left;
+ }
+
+.l1 {    
+    color: white;;
+    background-color: rgb(41, 57, 69);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 120px;
+
+}
+
+.ftr {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(35, 47, 47);
+}
+
+.ftr-1 {
+    font-size: 12px;
 }
