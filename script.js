@@ -1,4 +1,10 @@
 ////////////////////////// functions to filter the forms using regex ///////////////////////
+////////                                                                            ////////
+////////              I couldnt finish it, I needed more time.                      ////////
+////////             Styling and css was tremendous and i have                      ////////
+////////     still another big assignment to deliver after some hours.Thank you.    ////////                                                 
+////////////////////////////////////////////////////////////////////////////////////////////
+
 function regEx() {
     function testName() {
         var name = document.getElementsByTagName("fname").value;
