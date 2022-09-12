@@ -94,13 +94,14 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
 
 .c1 {
     color: white;;
-    background-color: rgb(84, 227, 132);
+    background-color: hsl(140, 72%, 61%);
     padding-left:auto;
     padding-right: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     height: 20%;
-    max-height: 1200px;
+    min-height: 400px;
+    max-height: 1600px;
 }
 
 
@@ -116,4 +117,16 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
     padding-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.btn-border-white {
+    border: 2.5px solid white;
+    border-radius: 7px;
+    background-color: transparent;
+    cursor: pointer;
+    height: 90px;
+    width: 350px;
+    font-size: 35px;
+    color: white;
+    display: inline-block;
 }
