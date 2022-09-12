@@ -150,16 +150,15 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
     float: left;
     /* text-align: left; */
     padding-top:25px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     padding-right:15px;
  }
  
- label {
+ label, textarea {
     float: left;
-    /* padding-bottom: 15px; */
-    /* padding-left: 15px; */
-    /* display: inline-block; */
-    /* width: 40px; */
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 160px;
     text-align: left;
  }
 
