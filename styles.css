@@ -8,6 +8,8 @@
 
  
  [class ^="box-"]{
+    text-align: center;
+    align-content: center;
      width: auto;
      height: auto;
      background-color: skyblue;
@@ -17,28 +19,90 @@
 
  .inside-div {
     display: flex;
+    align-content: center;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
  .inside.div-v{
+    text-align: center;
+    align-content: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
+.face {
+    max-width: 25%;
+    height: auto;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 img {
-    max-width: 15%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2px;
-    padding-bottom: 5px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 25px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+.b1 {
+    color: white;;
+    background-color: rgb(41, 57, 69);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.b2 {
+    font-size: 15px;
+}
+
+
+.rounded {
+    border-radius: 35px;
+    padding: 20px; 
+    width: auto;
+    height: auto;
+}
+
+.p-pad {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
