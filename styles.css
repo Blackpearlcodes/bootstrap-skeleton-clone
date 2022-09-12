@@ -14,14 +14,14 @@
      height: auto;
      background-color: skyblue;
      border: 2px solid black;
-     font-size: 65px;
+     font-size: 45px;
 }
 
  .inside-div {
     display: flex;
     align-content: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-around;
     flex-wrap: wrap;
 }
 
@@ -37,7 +37,7 @@
 .face {
     max-width: 25%;
     height: auto;
-    /* display: block; */
+    display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 35px;
@@ -49,8 +49,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 p {
@@ -92,17 +92,28 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p {
     font-size: 15px;
 }
 
+.c1 {
+    color: white;;
+    background-color: rgb(84, 227, 132);
+    padding-left:auto;
+    padding-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 20%;
+    max-height: 1200px;
+}
+
 
 .rounded {
     border-radius: 35px;
-    padding: 20px; 
-    width: auto;
-    height: auto;
+    padding: 10px;
+    width:100%;
+    max-width:440px;
 }
 
 .p-pad {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
